@@ -1,0 +1,50 @@
+.audio-player {
+ position: absolute;
+  top: 74%;
+  left: 1%;
+  width: 98%;
+  height: 25%;
+  
+}
+
+.duration {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.slider {
+  width: 95%;
+  margin-left: 2.5%;
+
+}
+.song-image{
+  position: relative;
+  width: 98%;
+  height: 74%;
+  left: 1%;  
+  /* border: 1px solid black; */
+}
+
+.img{
+  position: absolute;
+  left:25%;
+  top: 5%;
+  height: 70%;
+  width:50%;
+  border-radius: 8px;
+}
+.img-span{
+  text-align: center;
+  position:  absolute;
+  top: 78%;
+  left:25%;
+  font-size: larger;
+  font-weight: 700;
+  width: 50%;
+  
+  /* border: 1px solid black; */
+
+}
+

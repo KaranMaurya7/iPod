@@ -1,0 +1,36 @@
+.app-dark {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    transition: 0.7s all ease-in-out;
+    
+}
+.app{
+    margin-top: -10;
+    transition: 0.7s all ease-in-out;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.ipod-light{
+    transition: 0.7s all ease-in-out;
+    width: 20rem;
+    background-color: rgba(62, 58, 58, 0.236);
+    margin:auto;
+   
+    border-radius: 20px;
+    box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(112, 114, 116, 0.35);
+}
+.ipod-dark{
+    transition: 0.7s all ease-in-out;
+    width: 20rem;
+    background-color: rgba(61, 61, 61, 0.818);
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 0px 50px 100px -20px rgb(128, 128, 131), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(112, 114, 116, 0.35);
+}
+.ipod-light{
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+
+}
+/* color  [rgba(62, 58, 58, 0.195),rgba(35, 33, 33, 0.733), rgb(191, 191, 253), rgb(196, 250, 196)] */

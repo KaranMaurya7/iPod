@@ -1,0 +1,71 @@
+.wheel-container {
+
+    width: 20rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.wheel {
+    position: relative;
+    background-color: rgb(254, 254, 254);
+    width: 80%;
+    height: 90%;
+    border-radius: 50%;
+    margin-bottom: auto;
+}
+.icon {
+    width: fit-content;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+button {
+    font-size: larger;
+    background-color: transparent;
+    color: grey;
+    border:none;
+    outline: none;
+    position: absolute;
+    box-shadow: 0 0 3px 0px rgba(255, 255, 255, .1);
+    cursor: pointer;
+  }
+  
+  .inner-button {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 30%;
+    left: 28%;
+    background-color: rgba(62, 58, 58, 0.195);
+  }
+  
+  .menu {
+    position: absolute;
+    top: 10%;
+    left:38%;
+    width:auto;
+  }
+  
+  .right {
+    position: absolute;
+    top:45%;
+    left:78%;
+    width:auto;
+  }
+  
+  .left {
+    position: absolute;
+    top:45%;
+    left:6%;
+    width:auto;
+  }
+  
+  .bottom {
+    position: absolute;
+    top:83%;
+    left:42%;
+    width:auto;
+  }

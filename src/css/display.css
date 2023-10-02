@@ -1,0 +1,67 @@
+.display-container {
+   
+    width: 20rem;
+    height: 18rem;
+    display: flex;
+
+    border-radius: 20px 20px 0 0;
+}
+.display {
+    position: relative;
+    background-color: rgb(254, 254, 254);
+    width: 85%;
+    height: 85%;
+    display: flex;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.367) ;
+    margin: auto;
+    box-shadow: 0 0 2px 2px;
+    z-index: 2;
+}
+.menu-name{
+    margin-top: 2rem;
+}
+.menu-name-song{
+    margin-bottom: 1rem;
+}
+.main-menu {
+    background-color: transparent;
+    margin-top: -1rem;
+    width: 50%;
+    margin-left: 0.5rem;
+    height: inherit;
+    z-index: 2;
+    z-index: 2;
+    /* overflow: scroll; */
+}
+.main-menu-song {
+    margin-top: -1rem;
+    width: 90%;
+    margin-left: 0.5rem;
+    height: 95%;
+    z-index: 2;
+    /* overflow: hidden; */
+}
+.songlist{
+    font-size: small;
+}
+.active{
+    background-color: aqua;
+    padding: 5px;
+    margin:2px;
+}
+.active::after{
+    content: " >";
+}
+.non-active{
+    padding: 5px;
+    margin:2px;
+}
+.wallpaper{
+    width: 50%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+    opacity: 95%;
+    object-fit: cover;
+    overflow: hidden;
+}
